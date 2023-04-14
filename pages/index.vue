@@ -13,9 +13,10 @@
 import Header from '~/components/Header.vue';
 import About from '~/components/About.vue';
 import Timeline from '~/components/Timeline.vue';
-import Projects from '~/components/Projects.vue';
+import Projets from '~/components/Projets.vue';
 import Contact from '~/components/Contact.vue';
 import Footer from '~/components/Footer.vue';
+import Caroussel from '~/components/Caroussel.vue';
 import XSS from '../components/XSS.vue';
 
 export default {
@@ -23,12 +24,14 @@ export default {
     Header,
     About,
     Timeline,
-    Projects,
+    Projets,
     Contact,
-    Footer
+    Footer,
+    Caroussel,
     XSS
   }
 }
+
 </script>
 
 <style>
