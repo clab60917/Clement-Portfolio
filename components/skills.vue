@@ -1,37 +1,42 @@
 <template>
-    <section id="skills">
-      <h2>Compétences</h2>
-      <div class="skills-container">
-        <div class="subcategory">
-          <h3>Programmation</h3>
-          <!-- Compétences en programmation -->
-          <div v-for="skill in programmingSkills" :key="skill.name" class="skill">
-            <div class="skill-name">{{ skill.name }}</div>
-            <div class="progress-bar">
-              <div class="progress" :style="{ width: skill.level + '%' }"></div>
+    <section id="skills" class="bg-gray-100 py-12">
+      <div class="container mx-auto px-4">
+        <h2 class="text-3xl font-semibold mb-8 text-center">Compétences</h2>
+        <div class="skills-container grid grid-cols-1 md:grid-cols-3 gap-8">
+          <!-- Programmation -->
+          <div class="subcategory">
+            <h3 class="text-2xl font-semibold mb-6">Programmation</h3>
+            <div v-for="skill in programmingSkills" :key="skill.name" class="skill mb-4">
+              <div class="skill-name text-lg mb-1">{{ skill.name }}</div>
+              <div class="progress-bar w-full h-2 bg-gray-300">
+                <div class="progress h-full" :style="{ width: skill.level + '%', backgroundColor: 'rgba(59, 130, 246, 1)' }"></div>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="subcategory">
-          <h3>Cybersécurité</h3>
-          <!-- Compétences en cybersécurité -->
-          <div v-for="skill in cybersecuritySkills" :key="skill.name" class="skill">
-            <div class="skill-name">{{ skill.name }}</div>
-            <div class="progress-bar">
-              <div class="progress" :style="{ width: skill.level + '%' }"></div>
+          <!-- Cybersécurité -->
+          <div class="subcategory">
+            <h3 class="text-2xl font-semibold mb-6">Cybersécurité</h3>
+            <div v-for="skill in cybersecuritySkills" :key="skill.name" class="skill mb-4">
+              <div class="skill-name text-lg mb-1">{{ skill.name }}</div>
+              <div class="progress-bar w-full h-2 bg-gray-300">
+                <div class="progress h-full" :style="{ width: skill.level + '%', backgroundColor: 'rgba(59, 130, 246, 1)' }"></div>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="subcategory">
-          <h3>Soft Skills</h3>
-          <!-- Compétences en soft skills -->
-          <div v-for="skill in softSkills" :key="skill.name" class="skill soft-skill">
-            <div class="skill-name">{{ skill.name }}</div>
+          <!-- Soft Skills -->
+          <div class="subcategory">
+            <h3 class="text-2xl font-semibold mb-6">Soft Skills</h3>
+            <div class="flex flex-wrap gap-4">
+              <div v-for="skill in softSkills" :key="skill" class="skill p-2 rounded-lg bg-blue-500 text-white">
+                <div class="skill-name">{{ skill }}</div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
     </section>
   </template>
+  
   
   <script>
   export default {
@@ -64,14 +69,16 @@
           "Autodidacte",
           "Facilité de communication",
           "Intégrité",
-          "Sérieux",
-        ],
-      };
-    },
-  };
-  </script>
-  
-  <style scoped>
-  /* Insérez ici vos styles CSS pour le composant Skills */
-  </style>
+        "Sérieux",
+      ],
+    };
+  },
+};
+</script>
+
+<style scoped>
+/* Insérez ici vos styles CSS pour le composant Skills */
+</style>
+
+         
   

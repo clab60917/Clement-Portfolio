@@ -2,6 +2,8 @@
   <div>
     <Header />
     <About />
+    <Skills />
+    <Caroussel />
     <Timeline />
     <Projects />
     <Contact />
@@ -17,8 +19,8 @@ import Projets from '~/components/Projets.vue';
 import Contact from '~/components/Contact.vue';
 import Footer from '~/components/Footer.vue';
 import Caroussel from '~/components/Caroussel.vue';
-import XSS from '../components/XSS.vue';
-
+import XSS from '~/components/XSS.vue' ;
+import Skills from '~/components/Skills.vue';
 export default {
   components: {
     Header,
@@ -28,7 +30,8 @@ export default {
     Contact,
     Footer,
     Caroussel,
-    XSS
+    XSS,
+    Skills,
   }
 }
 
