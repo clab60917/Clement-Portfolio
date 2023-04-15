@@ -5,7 +5,7 @@
     <Skills />
     <Caroussel />
     <Timeline />
-    <Projects />
+    <Projets />
     <Contact />
     <Footer />
   </div>
