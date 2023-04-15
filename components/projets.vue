@@ -27,11 +27,12 @@
             <p class="mb-4">Il s'agit d'un outil d'OSINT réalisé pour me simplifier la tâche lors de pentests. Il est entièrement réalisé en python et s'exécute directement dans le terminal.</p>
             <p><a href="https://github.com/clab60917/Osint-IP-URL" target="_blank" class="text-blue-600">Voir projet ici</a></p>
             <iframe
-  class="w-full sm:w-3/4 md:w-3/5 lg:w-1/2 xl:w-1/2 2xl:w-7/12"
+  class="w-full sm:w-3/4 md:w-3/4 lg:w-2/3 xl:w-2/3 2xl:w-2/3"
   src="https://github-readme-stats.vercel.app/api/pin/?username=clab60917&repo=Osint-IP-URL&theme=default"
   frameborder="0"
   height="225"
 ></iframe>
+
 
 
           </div>
