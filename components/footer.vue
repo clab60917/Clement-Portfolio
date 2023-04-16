@@ -4,7 +4,7 @@
         <div class="flex flex-wrap justify-center text-center">
           <div class="w-full md:w-1/2 lg:w-1/4">
             <h3 class="font-semibold mb-4">À propos</h3>
-            <p>Je suis un étudiant en école d'ingénieur passionné par la cybersécurité. J'aime travailler sur des projets innovants et relever de nouveaux défis.</p>
+            <p>Étudiant en école d'ingénieur passionné par la cybersécurité. J'aime travailler sur des projets innovants et relever de nouveaux défis techniques.</p>
           </div>
           <div class="w-full md:w-1/2 lg:w-1/4 mt-8 md:mt-0">
             <h3 class="font-semibold mb-4">Navigation</h3>
@@ -18,11 +18,11 @@
           </div>
           <div class="w-full md:w-1/2 lg:w-1/4 mt-8 lg:mt-0">
             <h3 class="font-semibold mb-4">Contact</h3>
-            <p>Email: clement@example.com</p>
+            <p>clement.arthaud-berthet@eleve.isep.fr</p>
             <div class="flex justify-center space-x-4 mt-4">
-              <a href="https://www.linkedin.com/in/clement" target="_blank" rel="noopener noreferrer" class="text-blue-400 hover:text-blue-500"><i class="fab fa-linkedin text-2xl"></i></a>
-              <a href="https://github.com/clement" target="_blank" rel="noopener noreferrer" class="text-gray-300 hover:text-gray-400"><i class="fab fa-github text-2xl"></i></a>
-              <a href="https://twitter.com/clement" target="_blank" rel="noopener noreferrer" class="text-blue-400 hover:text-blue-500"><i class="fab fa-twitter text-2xl"></i></a>
+              <a href="https://www.linkedin.com/in/cl%C3%A9ment-arthaud-berthet-42b57618a/" target="_blank" rel="noopener noreferrer" class="text-blue-400 hover:text-blue-500"><i class="fab fa-linkedin text-2xl"></i></a>
+              <a href="https://github.com/clab60917" target="_blank" rel="noopener noreferrer" class="text-gray-300 hover:text-gray-400"><i class="fab fa-github text-2xl"></i></a>
+              <a href="" target="_blank" rel="noopener noreferrer" class="text-blue-400 hover:text-blue-500"><i class="fab fa-twitter text-2xl"></i></a>
             </div>
           </div>
         </div>

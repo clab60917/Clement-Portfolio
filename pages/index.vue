@@ -7,6 +7,7 @@
     <Timeline />
     <Projets />
     <Contact />
+    
     <Footer />
   </div>
 </template>
@@ -21,6 +22,7 @@ import Footer from '~/components/Footer.vue';
 import Caroussel from '~/components/Caroussel.vue';
 import XSS from '~/components/XSS.vue' ;
 import Skills from '~/components/Skills.vue';
+
 export default {
   components: {
     Header,
@@ -32,6 +34,9 @@ export default {
     Caroussel,
     XSS,
     Skills,
+    
+    
+    
   }
 }
 

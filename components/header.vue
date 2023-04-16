@@ -1,31 +1,32 @@
 <template>
     <header class="bg-white shadow-md">
-      <nav class="container mx-auto px-6 py-4 flex justify-between items-center">
-        <div class="font-semibold text-xl">
-          Portfolio de Clément
-        </div>
-        <div class="hidden md:flex space-x-8">
-          <a href="#about" class="text-gray-800 hover:text-blue-600">À propos</a>
-          <a href="#skills" class="text-gray-800 hover:text-blue-600">Compétences</a>
-          <a href="#timeline" class="text-gray-800 hover:text-blue-600">Parcours</a>
-          <a href="#projects" class="text-gray-800 hover:text-blue-600">Projets</a>
-          <a href="#contact" class="text-gray-800 hover:text-blue-600">Contact</a>
-        </div>
-        <div class="md:hidden">
-          <button @click="toggleMenu" class="text-gray-800">
-            <i class="fas fa-bars"></i>
-          </button>
-          <div v-if="menuOpen" class="absolute bg-white mt-2 right-0 py-2 w-48 shadow-md z-10">
-            <a href="#about" @click="closeMenu" class="block px-4 py-2 text-gray-800 hover:text-blue-600">À propos</a>
-            <a href="#skills" @click="closeMenu" class="block px-4 py-2 text-gray-800 hover:text-blue-600">Compétences</a>
-            <a href="#timeline" @click="closeMenu" class="block px-4 py-2 text-gray-800 hover:text-blue-600">Parcours</a>
-            <a href="#projects" @click="closeMenu" class="block px-4 py-2 text-gray-800 hover:text-blue-600">Projets</a>
-            <a href="#contact" @click="closeMenu" class="block px-4 py-2 text-gray-800 hover:text-blue-600">Contact</a>
+      <div class="container mx-auto px-4">
+        <div class="flex justify-between items-center py-6">
+          <div class="text-3xl font-semibold">
+            Portfolio de Clément
           </div>
+          <nav class="hidden md:flex space-x-8">
+            <a href="#about" class="text-lg hover:text-gray-700 transition-colors">À propos</a>
+            <a href="#skills" class="text-lg hover:text-gray-700 transition-colors">Compétences</a>
+            <a href="#timeline" class="text-lg hover:text-gray-700 transition-colors">Parcours</a>
+            <a href="#projects" class="text-lg hover:text-gray-700 transition-colors">Projets</a>
+            <a href="#contact" class="text-lg hover:text-gray-700 transition-colors">Contact</a>
+          </nav>
+          <button @click="toggleMenu" class="md:hidden focus:outline-none">
+            <i class="fas fa-bars text-xl"></i>
+          </button>
         </div>
-      </nav>
+        <div v-if="menuOpen" class="flex flex-col space-y-4 mt-4 md:hidden">
+          <a href="#about" @click="closeMenu" class="text-lg hover:text-gray-700 transition-colors">À propos</a>
+          <a href="#skills" @click="closeMenu" class="text-lg hover:text-gray-700 transition-colors">Compétences</a>
+          <a href="#timeline" @click="closeMenu" class="text-lg hover:text-gray-700 transition-colors">Parcours</a>
+          <a href="#projects" @click="closeMenu" class="text-lg hover:text-gray-700 transition-colors">Projets</a>
+          <a href="#contact" @click="closeMenu" class="text-lg hover:text-gray-700 transition-colors">Contact</a>
+        </div>
+      </div>
     </header>
   </template>
+  
   
   <script>
   export default {
