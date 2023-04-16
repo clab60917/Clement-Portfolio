@@ -11,12 +11,12 @@
           <!-- Projet 2 -->
           <div class="project2 bg-white shadow-md rounded-lg p-6 mb-4" data-aos="fade-up">
   <h3 class="text-2xl font-semibold mb-4">Participation à des CTF</h3>
-  <p class="mb-4">Participation à différents CTF dont : PicoCTF bbbb cccc ddddd eeeee</p>
+  <p class="mb-4">Participation à différents CTF dont : PicoCTF MidnightCTF RootmeCTF ddddd </p>
   <div class="logos-container flex flex-wrap justify-center">
     <img class="project-logo w-1/2" src="images/pico.png" alt="Logo 1">
-    <img class="project-logo w-1/2" src="images/1280px-Institut_supérieur_d'électronique_de_Paris.svg.png" alt="Logo 2">
-    <img class="project-logo w-1/2" src="images/1280px-Institut_supérieur_d'électronique_de_Paris.svg.png" alt="Logo 3">
-    <img class="project-logo w-1/2" src="images/1280px-Institut_supérieur_d'électronique_de_Paris.svg.png" alt="Logo 4">
+    <img class="project-logo w-1/2" src="images/blackbox-500x500_resize.png" alt="Logo 2">
+    <img class="project-logo w-1/2" src="images/téléchargement (4).png" alt="Logo 3">
+    <img class="project-logo w-1/2" src="images/téléchargement5.jpeg" alt="Logo 4">
   </div>
 </div>
 
