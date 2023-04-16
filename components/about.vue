@@ -1,9 +1,11 @@
 <template>
     <section id="about" class="hero bg-gray-100 py-16">
-      <div class="about-container mx-auto max-w-7xl flex flex-wrap justify-center items-start">
-        <div class="about-image w-full md:w-1/2 md:pr-8">
-          <img src="images/pc.jpg" alt="Photo de profil de Clément John" class="profile-image w-full h-auto rounded-lg shadow-lg" />
-          <div class="mt-6">
+      <div class="about-container mx-auto max-w-7xl rounded-lg bg-white shadow-lg p-8 animate-fade-in">
+        <div class="flex flex-wrap justify-between items-start">
+          <div class="about-image w-full md:w-1/4 md:pr-8">
+            <img src="images/pc.jpg" alt="Photo de profil de Clément John" class="profile-image w-full h-auto rounded-lg shadow-lg" />
+          </div>
+          <div class="about-content w-full md:w-3/4 mt-10 md:mt-0">
             <a href="mailto:clement.arthaud-berthet@eleve.isep.fr" class="email-link text-blue-500 hover:text-blue-600 transition-colors mb-6 inline-block">clement.arthaud-berthet@eleve.isep.fr</a>
             <div class="social-icons flex space-x-4 mb-4">
               <a href="https://www.linkedin.com/in/cl%C3%A9ment-arthaud-berthet-42b57618a/" target="_blank" rel="noopener noreferrer" class="text-blue-700 hover:text-blue-800 transition-colors icon-linkedin"><i class="fab fa-linkedin text-3xl"></i></a>
@@ -74,6 +76,17 @@ export default {
 .social-icons a {
   transition: all 0.3s;
 }
-</style>
 
-  
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.animate-fade-in {
+  animation: fadeIn 1s ease-in;
+}
+</style>
