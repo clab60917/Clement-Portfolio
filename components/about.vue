@@ -33,11 +33,12 @@
           <div class="about-contact">
             <h3 class="text-xl font-semibold mb-4">Contactez-moi</h3>
             <a href="mailto:clement@example.com" class="email-link text-blue-500 hover:text-blue-600 transition-colors mb-6 inline-block">clement@example.com</a>
-            <div class="social-icons flex space-x-4">
-              <a href="https://www.linkedin.com/in/clement" target="_blank" rel="noopener noreferrer" class="text-blue-700 hover:text-blue-800 transition-colors"><i class="fab fa-linkedin text-2xl"></i></a>
-              <a href="https://github.com/clement" target="_blank" rel="noopener noreferrer" class="text-gray-800 hover:text-gray-900 transition-colors"><i class="fab fa-github text-2xl"></i></a>
-              <a href="https://twitter.com/clement" target="_blank" rel="noopener noreferrer" class="text-blue-400 hover:text-blue-500 transition-colors"><i class="fab fa-twitter text-2xl"></i></a>
+            <div class="social-icons flex space-x-4 mb-4">
+              <a href="https://www.linkedin.com/in/clement" target="_blank" rel="noopener noreferrer" class="text-blue-700 hover:text-blue-800 transition-colors icon-linkedin"><i class="fab fa-linkedin text-3xl"></i></a>
+              <a href="https://github.com/clement" target="_blank" rel="noopener noreferrer" class="text-gray-800 hover:text-gray-900 transition-colors icon-github"><i class="fab fa-github text-3xl"></i></a>
+            <a href="https://twitter.com/clement" target="_blank" rel="noopener noreferrer" class="text-blue-400 hover:text-blue-500 transition-colors icon-twitter"><i class="fab fa-twitter text-3xl"></i></a>
           </div>
+          <a href="path/to/your/cv.pdf" download class="bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 px-4 rounded transition-colors">Télécharger le CV en PDF</a>
         </div>
       </div>
     </div>
@@ -51,8 +52,29 @@ export default {
 </script>
 
 <style scoped>
-/* Insérez ici vos styles CSS spécifiques au composant About */
+.icon-linkedin,
+.icon-github,
+.icon-twitter {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  background-color: #f3f4f6;
+  border-radius: 50%;
+}
+
+.icon-linkedin:hover,
+.icon-github:hover,
+.icon-twitter:hover {
+  background-color: #e5e7eb;
+}
+
+.email-link,
+.social-icons a {
+  transition: all 0.3s;
+}
 </style>
 
-             
+                
   
