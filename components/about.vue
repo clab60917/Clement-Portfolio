@@ -40,7 +40,7 @@
           </div>
           <div class="interest-item">
             <i class="fas fa-brain text-2xl"></i>
-            <p class="mt-1 text-base font-medium">Intelligence artificielle</p>
+            <p class="mt-1 text-base font-medium">Intelligence artificiellee</p>
           </div>
         </div>
         <p class="text-base leading-6"></p>
