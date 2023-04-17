@@ -2,7 +2,6 @@
     <section id="about" class="hero bg-gray-100 py-16">
       <div class="about-container mx-auto max-w-screen-2xl rounded-lg bg-white shadow-lg p-8 animate-fade-in">
         <div class="flex flex-wrap justify-between items-start md:items-stretch lg:items-start">
-
           <div class="about-image w-full md:w-1/4 md:pr-8 mb-4">
             <img src="images/pc.jpg" alt="Photo de profil de Clément John" class="profile-image w-full h-auto rounded-lg shadow-lg transition-all duration-500 ease-in-out transform hover:scale-105" />
           </div>
