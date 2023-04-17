@@ -45,7 +45,7 @@
         </div>
         <p class="text-base leading-6"></p>
       </div>
-      <a href="path/to/your/cv.pdf" download class="bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 px-4 rounded transition-colors">Télécharger le CV en PDF</a>
+      <a href="images/CV Clément Arthaud-Berthet VF1.pdf" download class="bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 px-4 rounded transition-colors">Télécharger le CV en PDF</a>
   </div>
   <div class="widget-container w-11/12 h-full md:w-1/3 md:pl-8 mt-10 md:mt-0">
   <div class="widget bg-blue-500 p-4 rounded-lg shadow-md h-[900px] overflow-y-auto">
