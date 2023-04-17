@@ -24,7 +24,7 @@ export default {
   css: ['~/assets/main.css'],
 
   plugins: [],
-
+  target: "static",
   components: true,
 
   buildModules: [
