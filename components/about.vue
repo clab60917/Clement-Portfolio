@@ -1,11 +1,14 @@
 <template>
     <section id="about" class="hero bg-gray-100 py-16">
-      <div class="about-container mx-auto max-w-7xl rounded-lg bg-white shadow-lg p-8 animate-fade-in">
+      <div class="about-container mx-auto max-w-screen-2xl rounded-lg bg-white shadow-lg p-8 animate-fade-in">
         <div class="flex flex-wrap justify-between items-start">
-          <div class="about-image w-full md:w-1/4 md:pr-8">
-            <img src="images/pc.jpg" alt="Photo de profil de Clément John" class="profile-image w-full h-auto rounded-lg shadow-lg" />
+          <div class="about-image w-full md:w-1/4 md:pr-8 mb-4">
+            <img src="images/pc.jpg" alt="Photo de profil de Clément John" class="profile-image w-full h-auto rounded-lg shadow-lg transition-all duration-500 ease-in-out transform hover:scale-105" />
           </div>
           <div class="about-content w-full md:w-3/4 mt-10 md:mt-0">
+            <h1 class="text-4xl font-bold mb-4 animate-slide-in-from-left"></h1>
+            <h2 class="text-2xl font-semibold mb-6 animate-slide-in-from-left"></h2>
+            <div class="about-text mb-8 animate-slide-in-from-right">
             <a href="mailto:clement.arthaud-berthet@eleve.isep.fr" class="email-link text-blue-500 hover:text-blue-600 transition-colors mb-6 inline-block">clement.arthaud-berthet@eleve.isep.fr</a>
             <div class="social-icons flex space-x-4 mb-4">
               <a href="https://www.linkedin.com/in/cl%C3%A9ment-arthaud-berthet-42b57618a/" target="_blank" rel="noopener noreferrer" class="text-blue-700 hover:text-blue-800 transition-colors icon-linkedin"><i class="fab fa-linkedin text-3xl"></i></a>
@@ -42,11 +45,12 @@
           <p class="text-base leading-6"></p>
         </div>
         <a href="path/to/your/cv.pdf" download class="bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 px-4 rounded transition-colors">Télécharger le CV en PDF</a>
-      </div>
     </div>
+        </div>
+      </div>
+    
   </section>
 </template>
-
 <script>
 export default {
   name: 'About'
@@ -69,7 +73,7 @@ export default {
 .icon-linkedin:hover,
 .icon-github:hover,
 .icon-twitter:hover {
-  background-color: #e5e7eb;
+  background-color:  #e5e7eb;
 }
 
 .email-link,
@@ -77,16 +81,46 @@ export default {
   transition: all 0.3s;
 }
 
-@keyframes fadeIn {
-  from {
+@keyframes slide-in-from-left {
+  0% {
+    transform: translateX(-100%);
     opacity: 0;
   }
-  to {
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.animate-slide-in-from-left {
+  animation: slide-in-from-left 1s forwards;
+}
+
+@keyframes slide-in-from-right {
+  0% {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.animate-slide-in-from-right {
+  animation: slide-in-from-right 1s forwards;
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
     opacity: 1;
   }
 }
 
 .animate-fade-in {
-  animation: fadeIn 1s ease-in;
+  animation: fade-in 1s forwards;
 }
 </style>
