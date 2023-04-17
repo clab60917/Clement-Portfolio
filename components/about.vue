@@ -40,7 +40,7 @@
           </div>
           <div class="interest-item">
             <i class="fas fa-brain text-2xl"></i>
-            <p class="mt-1 text-base font-medium">Intelligence artificiellee</p>
+            <p class="mt-1 text-base font-medium">Intelligence artificielle</p>
           </div>
         </div>
         <p class="text-base leading-6"></p>
@@ -54,10 +54,10 @@
       <!-- News Item 1 -->
       <div class="news-item bg-white p-4 rounded-lg shadow-md">
         <div class="flex flex-col md:flex-row">
-          <img src="https://www.scmagazine.com/_next/image?url=https%3A%2F%2Ffiles.scmagazine.com%2Fwp-content%2Fuploads%2F2022%2F03%2FPicture1-3.jpg&w=750&q=75" alt="Ransomware et Cybersécurité" class="w-full h-32 object-cover rounded mb-2 md:mb-0 md:mr-4">
+          <img src="https://www.scmagazine.com/_next/image?url=https%3A%2F%2Ffiles.scmagazine.com%2Fwp-content%2Fuploads%2F2022%2F03%2FPicture1-3.jpg&w=750&q=75" alt="Ransomware et Cybersécurité" class="w-full h-32 object-cover rounded mb-2 md:mb-0 md:mr-4 width: 235px; height: 128px;">
           <div class="flex flex-col justify-between">
-            <h4 class="text-lg font-semibold">Ransomware et Cybersécurité</h4>
-            <p class="text-base leading-6">Comprendre le ransomware et les meilleures pratiques pour se protéger contre les cyberattaques.</p>
+            <h4 class="text-lg font-semibold">Security hygiene, doing all the little things right</h4>
+            <p class="text-base leading-6">It doesn’t matter how much security technology you have or how much you spend on it if you don’t properly manage the policies enforced by those firewalls.</p>
             <a href="https://www.scmagazine.com/sw-article/asset-management/security-hygiene-doing-all-the-little-things-right-all-the-time" class="text-blue-500 hover:text-blue-700">En savoir plus</a>
           </div>
         </div>
@@ -65,34 +65,29 @@
       <!-- News Item 2 -->
       <div class="news-item bg-white p-4 rounded-lg shadow-md">
         <div class="flex flex-col md:flex-row">
-          <img src="https://www.scmagazine.com/_next/image?url=https%3A%2F%2Ffiles.scmagazine.com%2Fwp-content%2Fuploads%2F2022%2F10%2FPicture1.jpg&w=750&q=75" alt="Formation en cybersécurité" class="w-full h-32 object-cover rounded mb-2 md:mb-0 md:mr-4">
+            <img src="https://www.scmagazine.com/_next/image?url=https%3A%2F%2Ffiles.scmagazine.com%2Fwp-content%2Fuploads%2F2022%2F04%2FPicture1-2.jpg&w=750&q=75" alt="Les métiers de la cybersécurité" class="w-full h-32 object-cover rounded mb-2 md:mb-0 md:mr-4">
           <div class="flex flex-col justify-between">
-            <h4 class="text-lg font-semibold">Formation en cybersécurité</h4>
-            <p class="text-base leading-6">Découvrez les meilleures formations en cybersécurité pour développer vos compétences et progresser dans votre carrière.</p>
-            <a href="https://www.scmagazine.com/sw-article/cloud-security/the-unique-challenges-of-companies-born-in-the-cloud" class="text-blue-500 hover:text-blue-700">En savoir plus</a>
+            <h4 class="text-lg font-semibold">Forensic Challenges for Security Professionals</h4>
+            <p class="text-base leading-6">Security professionals face a variety of challenges every day. One particularly vexing issue is a lack of cybersecurity talent.</p>
+            <a href="https://www.scmagazine.com/sw-article/zero-trust/forensic-challenges-for-security-professionals" class="text-blue-500 hover:text-blue-700">En savoir plus</a>
           </div>
         </div>
       </div>
       <!-- News Item 3 -->
       <div class="news-item bg-white p-4 rounded-lg shadow-md">
         <div class="flex flex-col md:flex-row">
-            <img src="https://www.scmagazine.com/_next/image?url=https%3A%2F%2Ffiles.scmagazine.com%2Fwp-content%2Fuploads%2F2022%2F04%2FPicture1-2.jpg&w=750&q=75" alt="Les métiers de la cybersécurité" class="w-full h-32 object-cover rounded mb-2 md:mb-0 md:mr-4">
+            <img src="https://www.scmagazine.com/_next/image?url=https%3A%2F%2Ffiles.scmagazine.com%2Fwp-content%2Fuploads%2F2022%2F10%2FPicture1-2.png&w=750&q=75" alt="Ransomware et Cybersécurité" class="w-full h-32 object-cover rounded mb-2 md:mb-0 md:mr-4" style="width: 235px; height: ;">
           <div class="flex flex-col justify-between">
-            <h4 class="text-lg font-semibold">Les métiers de la cybersécurité</h4>
-            <p class="text-base leading-6">Découvrez les différents métiers de la cybersécurité et les compétences requises pour y accéder.</p>
-            <a href="https://www.scmagazine.com/sw-article/zero-trust/forensic-challenges-for-security-professionals" class="text-blue-500 hover:text-blue-700">En savoir plus</a>
+            <h4 class="text-lg font-semibold">Web App and API Security Needs to Be Modernized: Here’s How</h4>
+            <p class="text-base leading-6">Many APIs continue to expose the personally identifiable information of customers, employees and contractors..</p>
+            <a href="https://www.scmagazine.com/sw-article/cloud-security/the-unique-challenges-of-companies-born-in-the-cloud" class="text-blue-500 hover:text-blue-700">En savoir plus</a>
           </div>
         </div>
       </div>
+      <p class="text-sm text-white mt-2">Dernière mise à jour : 17 avril 2023</p>
     </div>
   </div>
 </div>
-
-
-
-
-
-
       </div>
     </div>
   </section>
