@@ -7,7 +7,6 @@
     <Timeline />
     <Projets />
     <Contact />
-    
     <Footer />
   </div>
 </template>
