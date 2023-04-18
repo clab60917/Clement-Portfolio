@@ -45,7 +45,7 @@ export default {
       items: [
         {
           title: "Diplôme d'ingénieur",
-          logo: "~/assets/img/1280px-Institut_supérieur_d'électronique_de_Paris.svg.png",
+          logo: "/assets/img/1280px-Institut_supérieur_d'électronique_de_Paris.svg.png",
           description:
             "2024 : diplôme d'ingénieur du numérique spécialisé en Cybersécurité.",
         },
