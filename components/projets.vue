@@ -32,22 +32,22 @@
           <div class="logos-container flex flex-wrap justify-center">
             <img
               class="project-logo w-1/2"
-              src="images/pico.png"
+              src="~/assets/img/pico.png"
               alt="Logo 1"
             />
             <img
               class="project-logo w-1/2"
-              src="images/blackbox-500x500_resize.png"
+              src="~/assets/img/blackbox-500x500_resize.png"
               alt="Logo 2"
             />
             <img
               class="project-logo w-1/2"
-              src="images/téléchargement (4).png"
+              src="~/assets/img/téléchargement (4).png"
               alt="Logo 3"
             />
             <img
               class="project-logo w-1/2"
-              src="images/téléchargement5.jpeg"
+              src="~/assets/img/téléchargement5.jpeg"
               alt="Logo 4"
             />
           </div>

@@ -8,8 +8,8 @@
       >
         <div class="about-image w-full md:w-1/4 md:pr-8 mb-4">
           <img
-            src="images/pc.jpg"
-            alt="Photo de profil de Clément John"
+            src="~/assets/img/pc.jpg"
+            alt="Photo de profil de Clément Arthaud-Berthet"
             class="profile-image w-full h-auto rounded-lg shadow-lg transition-all duration-500 ease-in-out transform hover:scale-105"
           />
         </div>
@@ -93,7 +93,7 @@
             <p class="text-base leading-6"></p>
           </div>
           <a
-            href="images/CV Clément Arthaud-Berthet VF1.pdf"
+            href="~/assets/img/CV Clément Arthaud-Berthet VF1.pdf"
             download
             class="bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 px-4 rounded transition-colors"
             >Télécharger le CV en PDF</a
