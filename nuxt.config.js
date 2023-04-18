@@ -45,14 +45,5 @@ export default defineNuxtConfig({
       },
   },
 
-  vite: {
-    resolve:{
-      alias:{
-        pages: './screens',
-        components: './components',
-      }
-    }
-  }
-
 })
 
