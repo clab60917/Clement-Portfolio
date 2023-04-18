@@ -42,7 +42,7 @@
             />
             <img
               class="project-logo w-1/2"
-              src="~/assets/img/téléchargement (4).png"
+              src="~/assets/img/rootme.png"
               alt="Logo 3"
             />
             <img
