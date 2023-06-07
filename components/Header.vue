@@ -2,7 +2,7 @@
   <header class="bg-white shadow-md">
     <div class="container mx-auto px-4">
       <div class="flex justify-between items-center py-6">
-        <div class="text-3xl font-semibold">Portfolio de Clément</div>
+        <div class="text-3xl font-semibold">Portfolio de Clément (Beta Version)</div>
         <nav class="hidden md:flex space-x-8">
           <a href="#about" class="text-lg hover:text-gray-700 transition-colors"
             >À propos</a
