@@ -26,8 +26,8 @@
         >
           <h3 class="text-2xl font-semibold mb-4">Participation à des CTF</h3>
           <p class="mb-4">
-            Participation à différents CTF dont : PicoCTF MidnightCTF RootmeCTF
-            ddddd
+            Participation à différents CTF dont : PicoCTF MidnightCTF RootmeCTF OverTheWire
+            
           </p>
           <div class="logos-container flex flex-wrap justify-center">
             <img

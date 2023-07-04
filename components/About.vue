@@ -68,7 +68,7 @@
             </div>
             <p class="text-base leading-6"></p>
           </div>
-          <a href="_nuxt/assets/img/CV-clement-arthaud-berthet.pdf" download
+          <a href="https://drive.google.com/file/d/1ggQyiHsDGN9oV2bZEHW24LF9oL2lGFJe/view?usp=sharing" download
             class="bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 px-4 rounded transition-colors">Télécharger
             le CV en PDF</a>
         </div>
