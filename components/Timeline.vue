@@ -45,25 +45,25 @@ export default {
       items: [
         {
           title: "Diplôme d'ingénieur",
-          logo: "_nuxt/assets/img/1280px-Institut_supérieur_d'électronique_de_Paris.svg.png",
+          logo: "_nuxt/assets/img/isep.png",
           description:
             "2024 : diplôme d'ingénieur du numérique spécialisé en Cybersécurité.",
         },
         {
           title: "Stage Pentest Groupe La Poste",
-          logo: "_nuxt/assets/img/Logo-groupe-la-poste-2021.png",
+          logo: "_nuxt/assets/img/laposte.png",
           description:
             "Stage de 6 mois en tant que pentesteur web + réseau au sein de la BGPN du groupe La Poste.",
         },
         {
           title: "Président Innovation Hub",
-          logo: "_nuxt/assets/img/Garage ISEP Logo Horizontal Black (1).png",
+          logo: "_nuxt/assets/img/garage.png",
           description:
             "Président de Garage Isep pour le mandat 2023-2024 du plus grand Innovation Hub étudiant de France.",
         },
         {
           title: "Erasmus CVUT Prague",
-          logo: "_nuxt/assets/img/Czech_Technical_University_in_Prague_logo_with_text.gif",
+          logo: "_nuxt/assets/img/cz.gif",
           description:
             "Échange universitaire de 6 mois à l'école Polytechnique de Prague.",
         },
