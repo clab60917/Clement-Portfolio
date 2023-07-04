@@ -45,7 +45,7 @@ export default {
       items: [
         {
           title: "Diplôme d'ingénieur",
-          logo: "_nuxt/assets/img/isep.png",
+          logo: "_nuxt/isep.png",
           description:
             "2024 : diplôme d'ingénieur du numérique spécialisé en Cybersécurité.",
         },
