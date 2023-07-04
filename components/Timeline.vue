@@ -51,7 +51,7 @@ export default {
         },
         {
           title: "Stage Pentest Groupe La Poste",
-          logo: "_nuxt/assets/img/laposte.png",
+          logo: "/assets/img/laposte.png",
           description:
             "Stage de 6 mois en tant que pentesteur web + réseau au sein de la BGPN du groupe La Poste.",
         },
