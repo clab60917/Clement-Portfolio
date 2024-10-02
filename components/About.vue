@@ -34,7 +34,7 @@
         </div>
         <div class="relative">
           <div class="absolute inset-0 bg-gradient-to-r from-cyan-500 to-blue-500 rounded-xl transform -rotate-6"></div>
-          <img src="~/assets/img/pc.jpg" alt="Clément Arthaud-Berthet" class="relative z-10 rounded-xl shadow-2xl w-full h-auto object-cover" />
+          <img src="~/assets/img/pc.png" alt="Clément Arthaud-Berthet" class="relative z-10 rounded-xl shadow-2xl w-full h-auto object-cover" />
         </div>
       </div>
       <div class="mt-16">
