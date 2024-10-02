@@ -4,11 +4,48 @@
       <h2 class="text-4xl font-bold mb-12 text-center text-cyan-400">Projets</h2>
       <div class="projects-container grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
         
-        <!-- Projet 1: Ping Status -->
+        <!-- Projet 1: RAG LLM Analyst SOC -->
         <div
           class="project bg-gray-800 rounded-lg overflow-hidden shadow-lg transform transition-all duration-300 hover:scale-105"
           data-aos="fade-up"
           data-aos-delay="200"
+        >
+          <div class="github-preview-container" style="height: 200px;">
+            <iframe 
+              src="https://github-readme-stats.vercel.app/api/pin/?username=clab60917&repo=RAG-LLM-SOC_analyst&theme=dark" 
+              frameborder="0" 
+              scrolling="no" 
+              width="100%" 
+              height="100%"
+            ></iframe>
+          </div>
+          <div class="p-6">
+            <h3 class="text-2xl font-bold mb-4 text-cyan-400">RAG LLM Analyst SOC</h3>
+            <p class="mb-4 text-gray-300">
+              POC explorant l'utilisation d'un modèle RAG LLM pour assister ou remplacer un analyste SOC de niveau 1. 
+              Ce projet de recherche vise à améliorer l'efficacité des opérations de sécurité.
+            </p>
+            <div class="mb-4">
+              <span class="inline-block bg-cyan-600 text-gray-900 rounded-full px-3 py-1 text-sm font-semibold mr-2 mb-2">AI</span>
+              <span class="inline-block bg-cyan-600 text-gray-900 rounded-full px-3 py-1 text-sm font-semibold mr-2 mb-2">Cybersecurity</span>
+              <span class="inline-block bg-cyan-600 text-gray-900 rounded-full px-3 py-1 text-sm font-semibold mr-2 mb-2">LLM</span>
+            </div>
+            <a
+              href="https://github.com/clab60917/RAG-LLM-SOC_analyst"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="inline-block text-cyan-400 hover:text-cyan-300 transition-colors"
+            >
+              Voir sur GitHub <i class="fas fa-external-link-alt ml-2"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- Projet 2: Ping Status -->
+        <div
+          class="project bg-gray-800 rounded-lg overflow-hidden shadow-lg transform transition-all duration-300 hover:scale-105"
+          data-aos="fade-up"
+          data-aos-delay="400"
         >
           <div class="github-preview-container" style="height: 200px;">
             <iframe 
@@ -42,11 +79,11 @@
           </div>
         </div>
         
-        <!-- Projet 2: Final DApp Timeless -->
+        <!-- Projet 3: Final DApp Timeless -->
         <div
           class="project bg-gray-800 rounded-lg overflow-hidden shadow-lg transform transition-all duration-300 hover:scale-105"
           data-aos="fade-up"
-          data-aos-delay="400"
+          data-aos-delay="600"
         >
           <div class="github-preview-container" style="height: 200px;">
             <iframe 
@@ -80,40 +117,66 @@
           </div>
         </div>
 
-        <!-- Projet 3: RAG LLM Analyst SOC -->
+        <!-- Projet 4: Honeypot SOC -->
+        <div
+          class="project bg-gray-800 rounded-lg overflow-hidden shadow-lg transform transition-all duration-300 hover:scale-105"
+          data-aos="fade-up"
+          data-aos-delay="200"
+        >
+          <div class="p-6">
+            <h3 class="text-2xl font-bold mb-4 text-cyan-400">
+              Honeypot SOC
+            </h3>
+            <p class="mb-4 text-gray-300">
+              Déploiement d'un Honeypot pour simuler le travail d'un SOC et analyser des logs. Ce projet vise à améliorer la compréhension des techniques d'attaque et à renforcer les capacités de détection.
+            </p>
+            <div class="mb-4">
+              <span class="inline-block bg-cyan-600 text-gray-900 rounded-full px-3 py-1 text-sm font-semibold mr-2 mb-2">SOC</span>
+              <span class="inline-block bg-cyan-600 text-gray-900 rounded-full px-3 py-1 text-sm font-semibold mr-2 mb-2">Log Analysis</span>
+              <span class="inline-block bg-cyan-600 text-gray-900 rounded-full px-3 py-1 text-sm font-semibold mr-2 mb-2">Threat Detection</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Projet 5: Cyber Attacks on WiFi Drones -->
+        <div
+          class="project bg-gray-800 rounded-lg overflow-hidden shadow-lg transform transition-all duration-300 hover:scale-105"
+          data-aos="fade-up"
+          data-aos-delay="400"
+        >
+          <div class="p-6">
+            <h3 class="text-2xl font-bold mb-4 text-cyan-400">
+              Cyber Attacks on WiFi Drones
+            </h3>
+            <p class="mb-4 text-gray-300">
+              Travail de recherche sur les attaques cyber ciblant les drones WiFi. Cette étude explore les vulnérabilités spécifiques aux drones et propose des stratégies de sécurisation.
+            </p>
+            <div class="mb-4">
+              <span class="inline-block bg-cyan-600 text-gray-900 rounded-full px-3 py-1 text-sm font-semibold mr-2 mb-2">Drone Security</span>
+              <span class="inline-block bg-cyan-600 text-gray-900 rounded-full px-3 py-1 text-sm font-semibold mr-2 mb-2">WiFi Vulnerabilities</span>
+              <span class="inline-block bg-cyan-600 text-gray-900 rounded-full px-3 py-1 text-sm font-semibold mr-2 mb-2">Research</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Projet 6: Secure Server Logs with Blockchain -->
         <div
           class="project bg-gray-800 rounded-lg overflow-hidden shadow-lg transform transition-all duration-300 hover:scale-105"
           data-aos="fade-up"
           data-aos-delay="600"
         >
-          <div class="github-preview-container" style="height: 200px;">
-            <iframe 
-              src="https://github-readme-stats.vercel.app/api/pin/?username=clab60917&repo=RAG-LLM-SOC_analyst&theme=dark" 
-              frameborder="0" 
-              scrolling="no" 
-              width="100%" 
-              height="100%"
-            ></iframe>
-          </div>
           <div class="p-6">
-            <h3 class="text-2xl font-bold mb-4 text-cyan-400">RAG LLM Analyst SOC</h3>
+            <h3 class="text-2xl font-bold mb-4 text-cyan-400">
+              Secure Server Logs with Blockchain
+            </h3>
             <p class="mb-4 text-gray-300">
-              POC explorant l'utilisation d'un modèle RAG LLM pour assister ou remplacer un analyste SOC de niveau 1. 
-              Ce projet de recherche vise à améliorer l'efficacité des opérations de sécurité.
+              Réalisation d'un POC pour la sécurisation de logs serveur en utilisant des hash, du chiffrement asymétrique et la blockchain Hedera. Ce projet explore des méthodes avancées pour garantir l'intégrité et la confidentialité des logs.
             </p>
             <div class="mb-4">
-              <span class="inline-block bg-cyan-600 text-gray-900 rounded-full px-3 py-1 text-sm font-semibold mr-2 mb-2">AI</span>
-              <span class="inline-block bg-cyan-600 text-gray-900 rounded-full px-3 py-1 text-sm font-semibold mr-2 mb-2">Cybersecurity</span>
-              <span class="inline-block bg-cyan-600 text-gray-900 rounded-full px-3 py-1 text-sm font-semibold mr-2 mb-2">LLM</span>
+              <span class="inline-block bg-cyan-600 text-gray-900 rounded-full px-3 py-1 text-sm font-semibold mr-2 mb-2">Blockchain</span>
+              <span class="inline-block bg-cyan-600 text-gray-900 rounded-full px-3 py-1 text-sm font-semibold mr-2 mb-2">Cryptography</span>
+              <span class="inline-block bg-cyan-600 text-gray-900 rounded-full px-3 py-1 text-sm font-semibold mr-2 mb-2">Log Security</span>
             </div>
-            <a
-              href="https://github.com/clab60917/RAG-LLM-SOC_analyst"
-              target="_blank"
-              rel="noopener noreferrer"
-              class="inline-block text-cyan-400 hover:text-cyan-300 transition-colors"
-            >
-              Voir sur GitHub <i class="fas fa-external-link-alt ml-2"></i>
-            </a>
           </div>
         </div>
 
