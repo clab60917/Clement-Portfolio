@@ -103,7 +103,7 @@ export default {
           title: "Finalist in Devoteam's Cyber Hackthon",
           logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Dev_logo_rgb.png/640px-Dev_logo_rgb.png", // Headmind Partners logo
           date: "2021",
-          description: "Finalist in the 'Devogame' cybersecurity competition organised by Devoteam out of more than 3,800 entrants. Proposed a system for verifying a company's logs using a private blockchain and a consensus system based on private keys.",
+          description: "Finaliste du concours de cybersécurité « Devogame » organisé par Devoteam parmi plus de 3 800 participants. Proposition d'un système de vérification des logs d'une entreprise utilisant une blockchain privée et un système de consensus basé sur des clés privées.",
         },
         {
           title: "Echange universitaire - Polytechnique Prague",

@@ -23,7 +23,7 @@
             <h3 class="text-2xl font-bold mb-4 text-cyan-400">RAG LLM Analyst SOC</h3>
             <p class="mb-4 text-gray-300">
               POC explorant l'utilisation d'un modèle RAG LLM pour assister ou remplacer un analyste SOC de niveau 1. 
-              Ce projet de recherche vise à améliorer l'efficacité des opérations de sécurité.
+              Ce projet de recherche vise à accélérer l'interprétation de potentiels logs DNS, Proxy, SSH malveillants.
             </p>
             <div class="mb-4">
               <span class="inline-block bg-cyan-600 text-gray-900 rounded-full px-3 py-1 text-sm font-semibold mr-2 mb-2">AI</span>
@@ -99,7 +99,7 @@
               Final DApp Timeless
             </h3>
             <p class="mb-4 text-gray-300">
-              Une application décentralisée (DApp) basée sur Ethereum pour la gestion et la vente de NFTs. Utilise Solidity pour les contrats intelligents et React pour l'interface utilisateur.
+              Une application décentralisée (DApp) basée sur Ethereum pour la gestion et la vente de NFTs (une marketplace NFT). Utilise Solidity pour les smartcontracts et React pour l'interface utilisateur.
             </p>
             <div class="mb-4">
               <span class="inline-block bg-cyan-600 text-gray-900 rounded-full px-3 py-1 text-sm font-semibold mr-2 mb-2">Solidity</span>
@@ -128,7 +128,7 @@
               Honeypot SOC
             </h3>
             <p class="mb-4 text-gray-300">
-              Déploiement d'un Honeypot pour simuler le travail d'un SOC et analyser des logs. Ce projet vise à améliorer la compréhension des techniques d'attaque et à renforcer les capacités de détection.
+              Déploiement d'un Honeypot sur un VPS pour simuler le travail d'un SOC et analyser des logs.
             </p>
             <div class="mb-4">
               <span class="inline-block bg-cyan-600 text-gray-900 rounded-full px-3 py-1 text-sm font-semibold mr-2 mb-2">SOC</span>
@@ -149,7 +149,7 @@
               Cyber Attacks on WiFi Drones
             </h3>
             <p class="mb-4 text-gray-300">
-              Travail de recherche sur les attaques cyber ciblant les drones WiFi. Cette étude explore les vulnérabilités spécifiques aux drones et propose des stratégies de sécurisation.
+              Travail de recherche sur les attaques cyber ciblant les drones WiFi. Cette étude explore les vulnérabilités spécifiques aux drones.
             </p>
             <div class="mb-4">
               <span class="inline-block bg-cyan-600 text-gray-900 rounded-full px-3 py-1 text-sm font-semibold mr-2 mb-2">Drone Security</span>
