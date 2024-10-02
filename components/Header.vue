@@ -1,70 +1,42 @@
 <template>
-  <header class="bg-white shadow-md">
+  <header class="bg-gray-900 text-white shadow-lg">
     <div class="container mx-auto px-4">
-      <div class="flex justify-between items-center py-6">
-        <div class="text-3xl font-semibold">Portfolio de Clément </div>
-        <nav class="hidden md:flex space-x-8">
-          <a href="#about" class="text-lg hover:text-gray-700 transition-colors"
-            >À propos</a
-          >
-          <a
-            href="#skills"
-            class="text-lg hover:text-gray-700 transition-colors"
-            >Compétences</a
-          >
-          <a
-            href="#timeline"
-            class="text-lg hover:text-gray-700 transition-colors"
-            >Parcours</a
-          >
-          <a
-            href="#projects"
-            class="text-lg hover:text-gray-700 transition-colors"
-            >Projets</a
-          >
-          <a
-            href="#contact"
-            class="text-lg hover:text-gray-700 transition-colors"
-            >Contact</a
-          >
+      <div class="flex justify-between items-center py-4">
+        <div class="text-2xl font-bold">
+          <span class="text-cyan-400">Cyber</span>Portfolio
+        </div>
+        <nav class="hidden md:flex space-x-6">
+          <a v-for="item in menuItems" :key="item.href" :href="item.href"
+             class="text-gray-300 hover:text-cyan-400 transition-colors duration-300 relative group">
+            {{ item.text }}
+            <span class="absolute left-0 bottom-0 w-full h-0.5 bg-cyan-400 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300"></span>
+          </a>
         </nav>
-        <button @click="toggleMenu" class="md:hidden focus:outline-none">
-          <i class="fas fa-bars text-xl"></i>
+        <button @click="toggleMenu" class="md:hidden focus:outline-none bg-gray-800 p-2 rounded-md">
+          <i class="fas fa-bars text-cyan-400"></i>
         </button>
       </div>
-      <div v-if="menuOpen" class="flex flex-col space-y-4 mt-4 md:hidden">
-        <a
-          href="#about"
-          @click="closeMenu"
-          class="text-lg hover:text-gray-700 transition-colors"
-          >À propos</a
-        >
-        <a
-          href="#skills"
-          @click="closeMenu"
-          class="text-lg hover:text-gray-700 transition-colors"
-          >Compétences</a
-        >
-        <a
-          href="#timeline"
-          @click="closeMenu"
-          class="text-lg hover:text-gray-700 transition-colors"
-          >Parcours</a
-        >
-        <a
-          href="#projects"
-          @click="closeMenu"
-          class="text-lg hover:text-gray-700 transition-colors"
-          >Projets</a
-        >
-        <a
-          href="#contact"
-          @click="closeMenu"
-          class="text-lg hover:text-gray-700 transition-colors"
-          >Contact</a
-        >
-      </div>
     </div>
+    <transition
+      enter-active-class="transition ease-out duration-200"
+      enter-from-class="opacity-0 scale-95"
+      enter-to-class="opacity-100 scale-100"
+      leave-active-class="transition ease-in duration-150"
+      leave-from-class="opacity-100 scale-100"
+      leave-to-class="opacity-0 scale-95"
+    >
+      <div v-if="menuOpen" class="md:hidden absolute top-16 inset-x-0 bg-gray-900 shadow-lg py-2">
+        <div class="container mx-auto px-4">
+          <div class="flex flex-col space-y-2">
+            <a v-for="item in menuItems" :key="item.href" :href="item.href"
+               @click="closeMenu"
+               class="text-gray-300 hover:text-cyan-400 transition-colors duration-300 py-2">
+              {{ item.text }}
+            </a>
+          </div>
+        </div>
+      </div>
+    </transition>
   </header>
 </template>
 
@@ -74,6 +46,13 @@ export default {
   data() {
     return {
       menuOpen: false,
+      menuItems: [
+        { href: "#about", text: "À propos" },
+        { href: "#skills", text: "Compétences" },
+        { href: "#timeline", text: "Parcours" },
+        { href: "#projects", text: "Projets" },
+        { href: "#contact", text: "Contact" }
+      ]
     };
   },
   methods: {
@@ -86,3 +65,9 @@ export default {
   },
 };
 </script>
+
+<style scoped>
+.container {
+  max-width: 1200px;
+}
+</style>

@@ -1,57 +1,59 @@
 <template>
-  <section id="about" class="hero bg-gray-100 py-16">
-    <div class="about-container mx-auto max-w-screen-2xl rounded-lg bg-white shadow-lg p-8 animate-fade-in">
-      <div class="flex flex-wrap justify-between items-start md:items-stretch lg:items-start">
-        <div class="about-image w-full md:w-1/4 md:pr-8 mb-4">
-          <img src="~/assets/img/pc.jpg" alt="Photo de profil de Clément Arthaud-Berthet"
-            class="profile-image w-full h-auto rounded-lg shadow-lg transition-all duration-500 ease-in-out transform hover:scale-105" />
-        </div>
-        <div class="about-content w-full md:w-3/4 mt-10 md:mt-0">
-          <h1 class="text-4xl font-bold mb-4 animate-slide-in-from-left"></h1>
-          <h2 class="text-2xl font-semibold mb-6 animate-slide-in-from-left"></h2>
-          <div class="about-text mb-8 animate-slide-in-from-right">
-            <a href="mailto:clement.arthaud-berthet@student-cs.fr"
-              class="email-link text-blue-500 hover:text-blue-600 transition-colors mb-6 inline-block">clement.arthaud-berthet@student-cs.fr</a>
-            <div class="social-icons flex space-x-4 mb-4">
-              <a href="https://www.linkedin.com/in/cl%C3%A9ment-arthaud-berthet-42b57618a/" target="_blank"
-                rel="noopener noreferrer" class="text-blue-700 hover:text-blue-800 transition-colors icon-linkedin"><i
-                  class="fab fa-linkedin text-3xl"></i></a>
-              <a href="https://github.com/clab60917" target="_blank" rel="noopener noreferrer"
-                class="text-gray-800 hover:text-gray-900 transition-colors icon-github"><i
-                  class="fab fa-github text-3xl"></i></a>
-            </div>
-          </div>
-        </div>
-        <div class="about-content w-full md:w-2/5 mt-10 md:mt-0">
-          <h1 class="text-4xl font-bold mb-4">Clément Arthaud-Berthet</h1>
-          <h2 class="text-2xl font-semibold mb-6">À propos de moi</h2>
-          <div class="about-text mb-8">
-            <p class="text-base leading-6">
-              Passionné par la cybersécurité, je bénéficie d'expériences en
-              sécurité offensive et participe à différents CTF. Je possède une
-              bonne connaissance de la sécurité des SI et des enjeux cyber
-              actuels. Rigoureux et méthodique, j'aime chercher et vérifier les
-              informations via l'OSINT. Doté d'une grande capacité
-              d'organisation et d'adaptation, je sais m'intégrer dans de
-              nouveaux contextes de travail grace à un véritable esprit
-              d'équipe.
+  <section id="about" class="min-h-screen bg-gradient-to-br from-gray-900 to-blue-900 text-white py-16">
+    <div class="container mx-auto px-4">
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+        <div class="space-y-8">
+          <h1 class="text-5xl font-extrabold mb-4 text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-cyan-300">
+            Clément Arthaud-Berthet
+          </h1>
+          <h2 class="text-3xl font-bold mb-6 text-cyan-300">Ingénieur en Cybersécurité</h2>
+          <div class="space-y-4">
+            <p class="text-lg">
+              Passionné par la cybersécurité, je bénéficie d'expériences en sécurité offensive et réponse à incidents. 
+              Actuellement en Mastère Spécialisé Cybersécurité délivré par CentraleSupelec et IMT Atlantique.
+              Je suis également très intéressé par les domaines de l'intelligence artificielle et la Blockchain.
             </p>
-          </div>
-          <div class="interests mb-8">
-            <h3 class="text-xl font-semibold mb-4">Intérêts supplémentaires</h3>
-            <div class="interests-container flex items-center mb-4">
-              <div class="interest-item mr-4">
-                <i class="fas fa-cubes text-2xl"></i>
-                <p class="mt-1 text-base font-medium">Blockchain</p>
-              </div>
-              <div class="interest-item">
-                <i class="fas fa-brain text-2xl"></i>
-                <p class="mt-1 text-base font-medium">
-                  Intelligence artificielle
-                </p>
-              </div>
+            <div class="flex space-x-4">
+              <span class="bg-blue-700 text-white px-3 py-1 rounded-full text-sm">Pentesting</span>
+              <span class="bg-blue-700 text-white px-3 py-1 rounded-full text-sm">Réponse à incidents</span>
+              <span class="bg-blue-700 text-white px-3 py-1 rounded-full text-sm">OSINT</span>
+              <span class="bg-blue-700 text-white px-3 py-1 rounded-full text-sm">Sécurité des SI</span>
             </div>
-            <p class="text-base leading-6"></p>
+          </div>
+          <div class="flex space-x-6">
+            <a href="mailto:clement.arthaud-berthet@student-cs.fr" class="text-cyan-300 hover:text-white transition-colors">
+              <i class="fas fa-envelope text-2xl"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/cl%C3%A9ment-arthaud-berthet-42b57618a/" target="_blank" rel="noopener noreferrer" class="text-cyan-300 hover:text-white transition-colors">
+              <i class="fab fa-linkedin text-2xl"></i>
+            </a>
+            <a href="https://github.com/clab60917" target="_blank" rel="noopener noreferrer" class="text-cyan-300 hover:text-white transition-colors">
+              <i class="fab fa-github text-2xl"></i>
+            </a>
+          </div>
+        </div>
+        <div class="relative">
+          <div class="absolute inset-0 bg-gradient-to-r from-cyan-500 to-blue-500 rounded-xl transform -rotate-6"></div>
+          <img src="~/assets/img/pc.jpg" alt="Clément Arthaud-Berthet" class="relative z-10 rounded-xl shadow-2xl w-full h-auto object-cover" />
+        </div>
+      </div>
+      <div class="mt-16">
+        <h3 class="text-2xl font-bold mb-6 text-cyan-300">Compétences clés</h3>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div class="bg-white bg-opacity-10 p-6 rounded-xl backdrop-filter backdrop-blur-lg">
+            <i class="fas fa-shield-alt text-4xl text-cyan-300 mb-4"></i>
+            <h4 class="text-xl font-semibold mb-2">Sécurité Offensive</h4>
+            <p>Expérience en pentests web et réseaux, participation à des challenges CTF.</p>
+          </div>
+          <div class="bg-white bg-opacity-10 p-6 rounded-xl backdrop-filter backdrop-blur-lg">
+            <i class="fas fa-search text-4xl text-cyan-300 mb-4"></i>
+            <h4 class="text-xl font-semibold mb-2">OSINT</h4>
+            <p>Maîtrise des techniques de recherche et d'analyse d'informations en sources ouvertes pour évaluer les risques.</p>
+          </div>
+          <div class="bg-white bg-opacity-10 p-6 rounded-xl backdrop-filter backdrop-blur-lg">
+            <i class="fas fa-network-wired text-4xl text-cyan-300 mb-4"></i>
+            <h4 class="text-xl font-semibold mb-2">Réponse à incidents</h4>
+            <p>Connaissance approfondie des enjeux et des meilleures pratiques en matière de réponse à incident. Dispose d'une premiere expérience en analyse forensic.</p>
           </div>
         </div>
       </div>
@@ -66,78 +68,14 @@ export default {
 </script>
 
 <style scoped>
-.icon-linkedin,
-.icon-github,
-.icon-twitter {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  width: 50px;
-  height: 50px;
-  background-color: #f3f4f6;
-  border-radius: 50%;
+@keyframes gradient {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
 }
 
-.icon-linkedin:hover,
-.icon-github:hover,
-.icon-twitter:hover {
-  background-color: #e5e7eb;
-}
-
-.email-link,
-.social-icons a {
-  transition: all 0.3s;
-}
-
-@keyframes slide-in-from-left {
-  0% {
-    transform: translateX(-100%);
-    opacity: 0;
-  }
-
-  100% {
-    transform: translateX(0);
-    opacity: 1;
-  }
-}
-
-.animate-slide-in-from-left {
-  animation: slide-in-from-left 1s forwards;
-}
-
-@keyframes slide-in-from-right {
-  0% {
-    transform: translateX(100%);
-    opacity: 0;
-  }
-
-  100% {
-    transform: translateX(0);
-    opacity: 1;
-  }
-}
-
-.animate-slide-in-from-right {
-  animation: slide-in-from-right 1s forwards;
-}
-
-@keyframes fade-in {
-  0% {
-    opacity: 0;
-  }
-
-  100% {
-    opacity: 1;
-  }
-}
-
-.animate-fade-in {
-  animation: fade-in 1s forwards;
-}
-
-@media (min-width: 1024px) {
-  .widget-container {
-    align-self: flex-start;
-  }
+#about {
+  background-size: 200% 200%;
+  animation: gradient 15s ease infinite;
 }
 </style>

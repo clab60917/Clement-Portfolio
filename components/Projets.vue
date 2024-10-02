@@ -1,82 +1,77 @@
 <template>
-  <section id="projects" class="py-12">
+  <section id="projects" class="bg-gray-900 py-16 text-white">
     <div class="container mx-auto px-4">
-      <h2 class="text-3xl font-semibold mb-8 text-center">Projets</h2>
-      <div class="projects-container grid grid-cols-1 md:grid-cols-3 gap-8">
+      <h2 class="text-4xl font-bold mb-12 text-center text-cyan-400">Projets</h2>
+      <div class="projects-container grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
         <!-- Projet 1 -->
         <div
-          class="project p-6 bg-white shadow-md rounded-lg"
+          class="project p-6 bg-gray-800 shadow-lg rounded-lg transform transition-all duration-300 hover:scale-105"
           data-aos="fade-up"
           data-aos-delay="200"
         >
-          <h3 class="text-2xl font-semibold mb-4">
+          <h3 class="text-2xl font-bold mb-4 text-cyan-400">
             Finaliste Concours Cyber de Devoteam
           </h3>
-          <p class="mb-4">
-            Finaliste du concours de cybersécurité "Devogame" organisé par
-            l'entreprise Devoteam sur plus de 3800 participants. Proposition
-            d'un système de vérification des logs d'une entreprise en utilisant
-            une blockchain privée et un système de consensus via clés privées.
+          <p class="mb-4 text-gray-300">
+            Finaliste du concours de cybersécurité "Devogame" sur plus de 3800 participants. Proposition
+            d'un système de vérification des logs utilisant une blockchain privée et un consensus via clés privées.
           </p>
+          <div class="mt-4">
+            <span class="inline-block bg-cyan-600 text-gray-900 rounded-full px-3 py-1 text-sm font-semibold mr-2 mb-2">Blockchain</span>
+            <span class="inline-block bg-cyan-600 text-gray-900 rounded-full px-3 py-1 text-sm font-semibold mr-2 mb-2">Cybersécurité</span>
+          </div>
         </div>
+        
         <!-- Projet 2 -->
         <div
-          class="project2 bg-white shadow-md rounded-lg p-6 mb-4"
+          class="project bg-gray-800 shadow-lg rounded-lg p-6 transform transition-all duration-300 hover:scale-105"
           data-aos="fade-up"
+          data-aos-delay="400"
         >
-          <h3 class="text-2xl font-semibold mb-4">Participation à des CTF</h3>
-          <p class="mb-4">
-            Participation à différents CTF dont : PicoCTF MidnightCTF RootmeCTF OverTheWire
-            
+          <h3 class="text-2xl font-bold mb-4 text-cyan-400">Participation à des CTF</h3>
+          <p class="mb-4 text-gray-300">
+            Participation active à divers Capture The Flag (CTF) pour renforcer mes compétences en cybersécurité :
           </p>
-          <div class="logos-container flex flex-wrap justify-center">
-            <img
-              class="project-logo w-1/2"
-              src="~/assets/img/pico.png"
-              alt="Logo 1"
-            />
-            <img
-              class="project-logo w-1/2"
-              src="~/assets/img/blackbox-500x500_resize.png"
-              alt="Logo 2"
-            />
-            <img
-              class="project-logo w-1/2"
-              src="~/assets/img/rootme.png"
-              alt="Logo 3"
-            />
-            <img
-              class="project-logo w-1/2"
-              src="~/assets/img/téléchargement5.jpeg"
-              alt="Logo 4"
+          <div class="logos-container grid grid-cols-2 gap-4 mt-4">
+            <div class="bg-white p-2 rounded-md flex items-center justify-center">
+              <img class="h-12 object-contain" src="~/assets/img/pico.png" alt="PicoCTF" />
+            </div>
+            <div class="bg-white p-2 rounded-md flex items-center justify-center">
+              <img class="h-12 object-contain" src="~/assets/img/blackbox-500x500_resize.png" alt="MidnightCTF" />
+            </div>
+            <div class="bg-white p-2 rounded-md flex items-center justify-center">
+              <img class="h-12 object-contain" src="~/assets/img/rootme.png" alt="Root Me" />
+            </div>
+            <div class="bg-white p-2 rounded-md flex items-center justify-center">
+              <img class="h-12 object-contain" src="~/assets/img/téléchargement5.jpeg" alt="OverTheWire" />
+            </div>
+          </div>
+        </div>
+
+        <!-- Projet 3 -->
+        <div
+          class="project p-6 bg-gray-800 shadow-lg rounded-lg transform transition-all duration-300 hover:scale-105"
+          data-aos="fade-up"
+          data-aos-delay="600"
+        >
+          <h3 class="text-2xl font-bold mb-4 text-cyan-400">RAG LLM Analyst SOC</h3>
+          <p class="mb-4 text-gray-300">
+            POC explorant l'utilisation d'un modèle RAG LLM pour assister ou remplacer un analyste SOC de niveau 1. 
+            Ce projet de recherche vise à améliorer l'efficacité des opérations de sécurité.
+          </p>
+          <a
+            href="https://github.com/clab60917/RAG-LLM-SOC_analyst"
+            target="_blank"
+            class="text-cyan-400 hover:text-cyan-300 transition-colors"
+          >Voir le projet sur GitHub</a>
+          <div class="mt-4">
+            <img 
+              src="https://github-readme-stats.vercel.app/api/pin/?username=clab60917&repo=RAG-LLM-SOC_analyst&theme=dark"
+              alt="GitHub Repo Card"
+              class="w-full rounded-md shadow-md"
             />
           </div>
         </div>
-<!-- Projet 4 -->
-<div
-  class="project p-6 bg-white shadow-md rounded-lg"
-  data-aos="fade-up"
-  data-aos-delay="800"
->
-  <h3 class="text-2xl font-semibold mb-4">RAG LLM Analyst SOC</h3>
-  <p class="mb-4">
-    Welcome to the SOC Analyst Level 1 Replacement using RAG LLM project! This repository presents a small research-oriented Proof of Concept (POC) aimed at exploring the feasibility of using a Retrieval-Augmented Generation (RAG) Large Language Model (LLM) to replace or assist a Level 1 SOC (Security Operations Center) Analyst.
-  </p>
-  <p>
-    <a
-      href="https://github.com/clab60917/RAG-LLM-SOC_analyst"
-      target="_blank"
-      class="text-blue-600"
-    >Voir projet ici</a>
-  </p>
-  <iframe
-    class="w-full sm:w-3/4 md:w-3/4 lg:w-2/3 xl:w-2/3 2xl:w-2/3 mt-4"
-    src="https://github-readme-stats.vercel.app/api/pin/?username=clab60917&repo=RAG-LLM-SOC_analyst&theme=radical"
-    frameborder="0"
-    height="200"
-  ></iframe>
-</div>
-
       </div>
     </div>
   </section>
@@ -89,21 +84,16 @@ import "aos/dist/aos.css";
 export default {
   name: "Projects",
   mounted() {
-    AOS.init();
+    AOS.init({
+      duration: 1000,
+      once: true,
+    });
   },
 };
 </script>
 
 <style scoped>
-.project-logo {
-  height: 3rem;
-  width: auto;
-  object-fit: contain;
-  margin: 0.5rem;
-  display: inline-block;
-}
-
-.project2 {
-  overflow: hidden;
+.container {
+  max-width: 1200px;
 }
 </style>

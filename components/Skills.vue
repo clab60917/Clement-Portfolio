@@ -1,58 +1,66 @@
 <template>
-  <section id="skills" class="bg-gray-100 py-12">
+  <section id="skills" class="bg-gray-900 py-16 text-white">
     <div class="container mx-auto px-4">
-      <h2 class="text-3xl font-semibold mb-8 text-center">Compétences</h2>
-      <div class="skills-container grid grid-cols-1 md:grid-cols-3 gap-8">
+      <h2 class="text-4xl font-bold mb-12 text-center text-cyan-400">Compétences</h2>
+      <div class="skills-container grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
         <!-- Programmation -->
-        <div class="subcategory">
-          <h3 class="text-2xl font-semibold mb-6">Programmation</h3>
+        <div class="subcategory bg-gray-800 p-6 rounded-lg shadow-lg">
+          <h3 class="text-2xl font-bold mb-6 text-cyan-400">Programmation</h3>
           <div
             v-for="skill in programmingSkills"
             :key="skill.name"
             class="skill mb-4"
           >
-            <div class="skill-name text-lg mb-1">{{ skill.name }}</div>
-            <div class="progress-bar w-full h-2 bg-gray-300">
+            <div class="flex justify-between items-center mb-1">
+              <div class="skill-name text-lg">{{ skill.name }}</div>
+              <div class="text-sm text-gray-400">{{ skill.level }}%</div>
+            </div>
+            <div class="progress-bar w-full h-3 bg-gray-700 rounded-full overflow-hidden">
               <div
-                class="progress h-full"
+                class="progress h-full rounded-full"
                 :style="{
                   width: skill.level + '%',
-                  backgroundColor: 'rgba(59, 130, 246, 1)',
+                  backgroundColor: 'rgba(6, 182, 212, 0.8)',
                 }"
               ></div>
             </div>
           </div>
         </div>
+        
         <!-- Cybersécurité -->
-        <div class="subcategory">
-          <h3 class="text-2xl font-semibold mb-6">Cybersécurité</h3>
+        <div class="subcategory bg-gray-800 p-6 rounded-lg shadow-lg">
+          <h3 class="text-2xl font-bold mb-6 text-cyan-400">Cybersécurité</h3>
           <div
             v-for="skill in cybersecuritySkills"
             :key="skill.name"
             class="skill mb-4"
           >
-            <div class="skill-name text-lg mb-1">{{ skill.name }}</div>
-            <div class="progress-bar w-full h-2 bg-gray-300">
+            <div class="flex justify-between items-center mb-1">
+              <div class="skill-name text-lg">{{ skill.name }}</div>
+              <div class="text-sm text-gray-400">{{ skill.level }}%</div>
+            </div>
+            <div class="progress-bar w-full h-3 bg-gray-700 rounded-full overflow-hidden">
               <div
-                class="progress h-full"
+                class="progress h-full rounded-full"
                 :style="{
                   width: skill.level + '%',
-                  backgroundColor: 'rgba(59, 130, 246, 1)',
+                  backgroundColor: 'rgba(6, 182, 212, 0.8)',
                 }"
               ></div>
             </div>
           </div>
         </div>
+        
         <!-- Soft Skills -->
-        <div class="subcategory">
-          <h3 class="text-2xl font-semibold mb-6">Soft Skills</h3>
-          <div class="flex flex-wrap gap-4">
+        <div class="subcategory bg-gray-800 p-6 rounded-lg shadow-lg">
+          <h3 class="text-2xl font-bold mb-6 text-cyan-400">Soft Skills</h3>
+          <div class="grid grid-cols-2 gap-4">
             <div
               v-for="skill in softSkills"
               :key="skill"
-              class="skill p-2 rounded-lg bg-blue-500 text-white"
+              class="skill p-3 rounded-lg bg-cyan-600 text-gray-900 font-semibold text-center transform transition-transform duration-300 hover:scale-105"
             >
-              <div class="skill-name">{{ skill }}</div>
+              {{ skill }}
             </div>
           </div>
         </div>
@@ -88,11 +96,11 @@ export default {
       softSkills: [
         "Management",
         "Esprit d'équipe",
-        "Adaptable",
+        "Adaptabilité",
         "Autodidacte",
-        "Facilité de communication",
+        "Communication",
         "Intégrité",
-        "Sérieux",
+        "Rigueur",
       ],
     };
   },
@@ -100,5 +108,11 @@ export default {
 </script>
 
 <style scoped>
-/* Insérez ici vos styles CSS pour le composant Skills */
+.container {
+  max-width: 1200px;
+}
+
+.progress {
+  transition: width 1s ease-in-out;
+}
 </style>

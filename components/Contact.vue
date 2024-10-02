@@ -1,46 +1,52 @@
 <template>
-  <section id="contact" class="py-12 bg-gray-100">
+  <section id="contact" class="py-16 bg-gray-900 text-white">
     <div class="container mx-auto px-4">
-      <h2 class="text-3xl font-semibold mb-12 text-center">Contact</h2>
+      <h2 class="text-4xl font-bold mb-12 text-center text-cyan-400">Contact</h2>
       <div class="contact-container grid grid-cols-1 md:grid-cols-3 gap-8">
         <!-- Email -->
         <div
-          class="contact-item flex flex-col items-center bg-white p-8 rounded-lg shadow-lg hover:shadow-2xl transition-all duration-300"
+          class="contact-item flex flex-col items-center bg-gray-800 p-8 rounded-lg shadow-lg hover:shadow-cyan-400/50 transition-all duration-300 transform hover:scale-105"
         >
-          <i class="fas fa-envelope text-4xl mb-4 text-blue-500"></i>
-          <h3 class="text-2xl font-semibold mb-4">Email</h3>
-          <p class="text-lg text-center">
+          <div class="w-16 h-16 bg-cyan-600 rounded-full flex items-center justify-center mb-4">
+            <i class="fas fa-envelope text-3xl text-gray-900"></i>
+          </div>
+          <h3 class="text-2xl font-bold mb-4 text-cyan-400">Email</h3>
+          <a href="mailto:clement.arthaud-berthet@student-cs.fr" class="text-lg text-center hover:text-cyan-300 transition-colors">
             clement.arthaud-berthet@student-cs.fr
-          </p>
+          </a>
         </div>
         <!-- LinkedIn -->
         <div
-          class="contact-item flex flex-col items-center bg-white p-8 rounded-lg shadow-lg hover:shadow-2xl transition-all duration-300"
+          class="contact-item flex flex-col items-center bg-gray-800 p-8 rounded-lg shadow-lg hover:shadow-cyan-400/50 transition-all duration-300 transform hover:scale-105"
         >
+          <div class="w-16 h-16 bg-cyan-600 rounded-full flex items-center justify-center mb-4">
+            <i class="fab fa-linkedin-in text-3xl text-gray-900"></i>
+          </div>
+          <h3 class="text-2xl font-bold mb-4 text-cyan-400">LinkedIn</h3>
           <a
             href="https://www.linkedin.com/in/cl%C3%A9ment-arthaud-berthet-42b57618a/"
             target="_blank"
-            class="text-center"
+            rel="noopener noreferrer"
+            class="text-lg text-center hover:text-cyan-300 transition-colors"
           >
-            <h3 class="text-2xl font-semibold mb-4">LinkedIn</h3>
-            <i
-              class="fab fa-linkedin text-4xl w-12 h-12 md:w-auto md:h-auto mx-auto my-2 text-blue-500"
-            ></i>
+            Clément Arthaud-Berthet
           </a>
         </div>
         <!-- GitHub -->
         <div
-          class="contact-item flex flex-col items-center bg-white p-8 rounded-lg shadow-lg hover:shadow-2xl transition-all duration-300"
+          class="contact-item flex flex-col items-center bg-gray-800 p-8 rounded-lg shadow-lg hover:shadow-cyan-400/50 transition-all duration-300 transform hover:scale-105"
         >
+          <div class="w-16 h-16 bg-cyan-600 rounded-full flex items-center justify-center mb-4">
+            <i class="fab fa-github text-3xl text-gray-900"></i>
+          </div>
+          <h3 class="text-2xl font-bold mb-4 text-cyan-400">GitHub</h3>
           <a
             href="https://github.com/clab60917"
             target="_blank"
-            class="text-center"
+            rel="noopener noreferrer"
+            class="text-lg text-center hover:text-cyan-300 transition-colors"
           >
-            <h3 class="text-2xl font-semibold mb-4">GitHub</h3>
-            <i
-              class="fab fa-github text-4xl w-12 h-12 md:w-auto md:h-auto mx-auto my-2 text-gray-800"
-            ></i>
+            @clab60917
           </a>
         </div>
       </div>
@@ -55,5 +61,7 @@ export default {
 </script>
 
 <style scoped>
-/* Ajoutez ici vos styles CSS spécifiques à ce composant */
+.container {
+  max-width: 1200px;
+}
 </style>
