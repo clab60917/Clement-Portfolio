@@ -43,7 +43,7 @@
           <div class="bg-white bg-opacity-10 p-6 rounded-xl backdrop-filter backdrop-blur-lg">
             <i class="fas fa-shield-alt text-4xl text-cyan-300 mb-4"></i>
             <h4 class="text-xl font-semibold mb-2">Sécurité Offensive</h4>
-            <p>Expérience en pentests web et réseaux, participation à des challenges CTF.</p>
+            <p>Réalisation de quelques pentests web et réseaux, participation à des challenges CTF.</p>
           </div>
           <div class="bg-white bg-opacity-10 p-6 rounded-xl backdrop-filter backdrop-blur-lg">
             <i class="fas fa-search text-4xl text-cyan-300 mb-4"></i>

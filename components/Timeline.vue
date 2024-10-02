@@ -106,10 +106,10 @@ export default {
           description: "Finalist in the 'Devogame' cybersecurity competition organised by Devoteam out of more than 3,800 entrants. Proposed a system for verifying a company's logs using a private blockchain and a consensus system based on private keys.",
         },
         {
-          title: "Consultant Cyberdéfense - Stage de fin d'études",
-          logo: "https://join.headmind.com/wp-content/uploads/2021/12/Logo-HeadMind-Partners-PNG-BLEU.png", // Headmind Partners logo
-          date: "2024",
-          description: "Mission de cyberdéfense chez un client grand compte.",
+          title: "Echange universitaire - Polytechnique Prague",
+          logo: "https://portfolio.transfera.cz/data/trprojects/institutions/logo_cvut_en.jpg", // Headmind Partners logo
+          date: "2020",
+          description: "Echange universitaire de 6 mois avec des cours orienté mathématiques, réseaux et systemes UNIX.",
         },
         
       ],
