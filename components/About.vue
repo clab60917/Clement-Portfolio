@@ -10,7 +10,7 @@
           <h1 class="text-4xl font-bold mb-4 animate-slide-in-from-left"></h1>
           <h2 class="text-2xl font-semibold mb-6 animate-slide-in-from-left"></h2>
           <div class="about-text mb-8 animate-slide-in-from-right">
-            <a href="mailto:clement.arthaud-berthet@eleve.isep.fr"
+            <a href="mailto:clement.arthaud-berthet@student-cs.fr"
               class="email-link text-blue-500 hover:text-blue-600 transition-colors mb-6 inline-block">clement.arthaud-berthet@eleve.isep.fr</a>
             <div class="social-icons flex space-x-4 mb-4">
               <a href="https://www.linkedin.com/in/cl%C3%A9ment-arthaud-berthet-42b57618a/" target="_blank"
@@ -40,18 +40,6 @@
               d'équipe.
             </p>
           </div>
-          <div class="experience mb-8">
-            <h3 class="text-xl font-semibold mb-4">Recherche de Stage</h3>
-            <div class="experience-item">
-              <p class="text-base leading-6">
-                Je cherche actuellement un stage de fin d'études (M2) pour une
-                durée de 6 mois, dans le domaine de la cybersécurité. Je suis
-                attiré par les postes suivants : analyste cyber, pentesteur,
-                chef de projet cyber. Je reste ouvert à toute proposition tierce
-                en rapport avec mon domaine d'activité.
-              </p>
-            </div>
-          </div>
           <div class="interests mb-8">
             <h3 class="text-xl font-semibold mb-4">Intérêts supplémentaires</h3>
             <div class="interests-container flex items-center mb-4">
@@ -68,9 +56,6 @@
             </div>
             <p class="text-base leading-6"></p>
           </div>
-          <a href="https://drive.google.com/file/d/1ggQyiHsDGN9oV2bZEHW24LF9oL2lGFJe/view?usp=sharing" download
-            class="bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 px-4 rounded transition-colors">Télécharger
-            le CV en PDF</a>
         </div>
         <div class="widget-container w-11/12 h-full md:w-1/3 md:pl-8 mt-10 md:mt-0">
           <div class="widget bg-blue-500 p-4 rounded-lg shadow-md h-[900px] overflow-y-auto">
