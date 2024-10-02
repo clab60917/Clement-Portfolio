@@ -87,6 +87,7 @@ export default {
         { name: "Analyse de Malware", level: 70 },
         { name: "Analyse de Risques", level: 90 },
         { name: "OSINT", level: 80 },
+        { name: "Cryptographie", level: 60 },
       ],
       softSkills: [
         "Management",
