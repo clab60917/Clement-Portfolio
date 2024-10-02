@@ -10,7 +10,7 @@
           <i class="fas fa-envelope text-4xl mb-4 text-blue-500"></i>
           <h3 class="text-2xl font-semibold mb-4">Email</h3>
           <p class="text-lg text-center">
-            clement.arthaud-berthet@garageisep.com
+            clement.arthaud-berthet@student-cs.fr
           </p>
         </div>
         <!-- LinkedIn -->

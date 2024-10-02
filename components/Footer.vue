@@ -30,7 +30,7 @@
         </div>
         <div class="w-full md:w-1/2 lg:w-1/4 mt-8 lg:mt-0">
           <h3 class="font-semibold mb-4 justify">Contact</h3>
-          <p>clement.arthaud-berthet@eleve.isep.fr</p>
+          <p>clement.arthaud-berthet@student-cs.fr</p>
           <div class="flex justify-center space-x-4 mt-4">
             <a
               href="https://www.linkedin.com/in/cl%C3%A9ment-arthaud-berthet-42b57618a/"
@@ -45,13 +45,6 @@
               rel="noopener noreferrer"
               class="text-gray-300 hover:text-gray-400"
               ><i class="fab fa-github text-2xl"></i
-            ></a>
-            <a
-              href=""
-              target="_blank"
-              rel="noopener noreferrer"
-              class="text-blue-400 hover:text-blue-500"
-              ><i class="fab fa-twitter text-2xl"></i
             ></a>
           </div>
         </div>

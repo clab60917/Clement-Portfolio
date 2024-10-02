@@ -52,6 +52,33 @@
             />
           </div>
         </div>
+<!-- Projet 4 -->
+<div
+  class="project p-6 bg-white shadow-md rounded-lg"
+  data-aos="fade-up"
+  data-aos-delay="800"
+>
+  <h3 class="text-2xl font-semibold mb-4">RAG LLM Analyst SOC</h3>
+  <p class="mb-4">
+    Welcome to the SOC Analyst Level 1 Replacement using RAG LLM project! This repository presents a small research-oriented Proof of Concept (POC) aimed at exploring the feasibility of using a Retrieval-Augmented Generation (RAG) Large Language Model (LLM) to replace or assist a Level 1 SOC (Security Operations Center) Analyst.
+  </p>
+  <p>
+    <a
+      href="https://github.com/clab60917/RAG-LLM-SOC_analyst"
+      target="_blank"
+      class="text-blue-600"
+    >Voir projet ici</a>
+  </p>
+  <iframe
+    class="w-full sm:w-3/4 md:w-3/4 lg:w-2/3 xl:w-2/3 2xl:w-2/3 mt-4"
+    src="https://github-readme-stats.vercel.app/api/pin/?username=clab60917&repo=RAG-LLM-SOC_analyst&theme=radical"
+    frameborder="0"
+    height="200"
+  ></iframe>
+</div>
+
+
+
 
         <!-- Projet 3 -->
         <div

@@ -11,7 +11,7 @@
           <h2 class="text-2xl font-semibold mb-6 animate-slide-in-from-left"></h2>
           <div class="about-text mb-8 animate-slide-in-from-right">
             <a href="mailto:clement.arthaud-berthet@student-cs.fr"
-              class="email-link text-blue-500 hover:text-blue-600 transition-colors mb-6 inline-block">clement.arthaud-berthet@eleve.isep.fr</a>
+              class="email-link text-blue-500 hover:text-blue-600 transition-colors mb-6 inline-block">clement.arthaud-berthet@student-cs.fr</a>
             <div class="social-icons flex space-x-4 mb-4">
               <a href="https://www.linkedin.com/in/cl%C3%A9ment-arthaud-berthet-42b57618a/" target="_blank"
                 rel="noopener noreferrer" class="text-blue-700 hover:text-blue-800 transition-colors icon-linkedin"><i
@@ -19,9 +19,6 @@
               <a href="https://github.com/clab60917" target="_blank" rel="noopener noreferrer"
                 class="text-gray-800 hover:text-gray-900 transition-colors icon-github"><i
                   class="fab fa-github text-3xl"></i></a>
-              <a href="" target="_blank" rel="noopener noreferrer"
-                class="text-blue-400 hover:text-blue-500 transition-colors icon-twitter"><i
-                  class="fab fa-twitter text-3xl"></i></a>
             </div>
           </div>
         </div>
@@ -55,80 +52,6 @@
               </div>
             </div>
             <p class="text-base leading-6"></p>
-          </div>
-        </div>
-        <div class="widget-container w-11/12 h-full md:w-1/3 md:pl-8 mt-10 md:mt-0">
-          <div class="widget bg-blue-500 p-4 rounded-lg shadow-md h-[900px] overflow-y-auto">
-            <h3 class="text-xl font-semibold text-white mb-4">
-              Veille en cybersécurité
-            </h3>
-            <div class="widget-content space-y-4">
-              <!-- News Item 1 -->
-              <div class="news-item bg-white p-4 rounded-lg shadow-md">
-                <div class="flex flex-col md:flex-row">
-                  <img
-                    src="https://www.scmagazine.com/_next/image?url=https%3A%2F%2Ffiles.scmagazine.com%2Fwp-content%2Fuploads%2F2022%2F03%2FPicture1-3.jpg&w=750&q=75"
-                    alt="Ransomware et Cybersécurité"
-                    class="w-full h-32 object-cover rounded mb-2 md:mb-0 md:mr-4 width: 235px; height: 128px;" />
-                  <div class="flex flex-col justify-between">
-                    <h4 class="text-lg font-semibold">
-                      Security hygiene, doing all the little things right
-                    </h4>
-                    <p class="text-base leading-6">
-                      It doesn’t matter how much security technology you have or
-                      how much you spend on it if you don’t properly manage the
-                      policies enforced by those firewalls.
-                    </p>
-                    <a href="https://www.scmagazine.com/sw-article/asset-management/security-hygiene-doing-all-the-little-things-right-all-the-time"
-                      class="text-blue-500 hover:text-blue-700">En savoir plus</a>
-                  </div>
-                </div>
-              </div>
-              <!-- News Item 2 -->
-              <div class="news-item bg-white p-4 rounded-lg shadow-md">
-                <div class="flex flex-col md:flex-row">
-                  <img
-                    src="https://www.scmagazine.com/_next/image?url=https%3A%2F%2Ffiles.scmagazine.com%2Fwp-content%2Fuploads%2F2022%2F04%2FPicture1-2.jpg&w=750&q=75"
-                    alt="Les métiers de la cybersécurité" class="w-full h-32 object-cover rounded mb-2 md:mb-0 md:mr-4" />
-                  <div class="flex flex-col justify-between">
-                    <h4 class="text-lg font-semibold">
-                      Forensic Challenges for Security Professionals
-                    </h4>
-                    <p class="text-base leading-6">
-                      Security professionals face a variety of challenges every
-                      day. One particularly vexing issue is a lack of
-                      cybersecurity talent.
-                    </p>
-                    <a href="https://www.scmagazine.com/sw-article/zero-trust/forensic-challenges-for-security-professionals"
-                      class="text-blue-500 hover:text-blue-700">En savoir plus</a>
-                  </div>
-                </div>
-              </div>
-              <!-- News Item 3 -->
-              <div class="news-item bg-white p-4 rounded-lg shadow-md">
-                <div class="flex flex-col md:flex-row">
-                  <img
-                    src="https://www.scmagazine.com/_next/image?url=https%3A%2F%2Ffiles.scmagazine.com%2Fwp-content%2Fuploads%2F2022%2F10%2FPicture1-2.png&w=750&q=75"
-                    alt="Ransomware et Cybersécurité" class="w-full h-32 object-cover rounded mb-2 md:mb-0 md:mr-4"
-                    style="width: 235px; height: " />
-                  <div class="flex flex-col justify-between">
-                    <h4 class="text-lg font-semibold">
-                      Web App and API Security Needs to Be Modernized: Here’s
-                      How
-                    </h4>
-                    <p class="text-base leading-6">
-                      Many APIs continue to expose the personally identifiable
-                      information of customers, employees and contractors..
-                    </p>
-                    <a href="https://www.scmagazine.com/sw-article/cloud-security/the-unique-challenges-of-companies-born-in-the-cloud"
-                      class="text-blue-500 hover:text-blue-700">En savoir plus</a>
-                  </div>
-                </div>
-              </div>
-              <p class="text-sm text-white mt-2">
-                Dernière mise à jour : 17 avril 2023
-              </p>
-            </div>
           </div>
         </div>
       </div>
