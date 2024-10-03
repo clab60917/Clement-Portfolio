@@ -30,6 +30,11 @@
             <a href="https://github.com/clab60917" target="_blank" rel="noopener noreferrer" class="text-cyan-300 hover:text-white transition-colors">
               <i class="fab fa-github text-2xl"></i>
             </a>
+            <a href="https://publish.obsidian.md/130101" target="_blank" rel="noopener noreferrer" 
+   class="bg-cyan-600 text-white px-4 py-2 rounded-full hover:bg-cyan-700 transition-colors flex items-center gap-2">
+  <i class="fas fa-book-open text-lg"></i>
+  <span>Notes Cybersécurité</span>
+</a>
           </div>
         </div>
         <div class="relative">
